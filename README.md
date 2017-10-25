@@ -1,11 +1,11 @@
 # cmps-backend
-Express Repo for CMPS Project 3
 
-Melley
-Patrick
-Christian
-Spenser
+- Christian
+- Melley
+- Patrick
+- Spenser
 
+## Express Repo for CMPS Project 3
 
 >> Clone this down
   > run '$ npm install'
@@ -13,25 +13,14 @@ Spenser
   > in new terminal window, run '$ mongo'
   > in mongo, run 'show dbs' to see databases
   > then run '$ use cmps_db' to create local database
+  <!-- Mongoose will actually do this for you when you connect to a database with .connect() -->
+  <!--   mongoose.connect('mongodb://localhost/cmps_db') will create the db cmps_db if it doesn't exist already -->
   > in project directory (not mongo), run '$ node db/seeds.js' to seed database, CTRL-C to escape
-  > run 'nodemon' to start server
+  > run 'nodemon' to start server in project root
 
 
 >> NOTE:
   > We can optionally make a 'controllers' folder and have controllers for each model, which index.js then refers to in the routes. But this might be over-kill for us.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 >> TO-DO's
